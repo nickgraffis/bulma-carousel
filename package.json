@@ -1,0 +1,26 @@
+{
+  "name": "bulma-carousel",
+  "version": "1.0.0",
+  "description": "simple bulimia based carousel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass main.scss -o css",
+    "scss-watch": "node-sass --watch main.scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickgraffis/bulma-carousel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nickgraffis/bulma-carousel/issues"
+  },
+  "homepage": "https://github.com/nickgraffis/bulma-carousel#readme",
+  "dependencies": {
+    "bulma": "^0.9.1",
+    "node-sass": "^4.14.1"
+  }
+}

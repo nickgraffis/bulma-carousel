@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Document</title>
+  <style>
+  </style>
+</head>
+<body>
+  <section class="hero is-fullheight">
+    <div class="hero-head">
+      <nav class="navbar is-transparent">
+        <div class="container">
+          <div class="navbar-brand">
+            <a class="navbar-item has-text-white is-active has-text-weight-bold">
+                💚 NG
+            </a>
+            <span class="navbar-burger burger" data-target="navbarMenuHeroA">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+          </div>
+          <div class="navbar-menu">
+            <div class="navbar-end">
+              <a class="navbar-item has-text-white is-active has-text-weight-bold">
+                Portfolio
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="hero-body">
+        <div id="text" class="column is-4 is-offset-4">
+          <p class="title is-size-1 has-text-white has-text-right">Hello, World</p>
+          <p class="subtitle has-text-white has-text-right">Welcome to the forest!</p>
+        </div>
+    </div>
+<div class="carousel">
+  <div class="current">
+    <figure class="image is-covered">
+      <img id="currentImage" src="https://images.unsplash.com/photo-1593431074633-21ef64707d29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80" alt="">
+    </figure>
+  </div>
+</div>
+<div class="slider">
+  <div id="slider" class="slider-container" style="overflow-x: scroll;">
+    <div id="image1" onclick="changeImage(1)"class="slider-item" style="width: 200px;">
+      <figure class="image is-16by9 is-covered">
+        <img src="https://images.unsplash.com/photo-1551656379-bba1673bd79f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3264&q=80" alt="">
+      </figure>
+    </div>
+    <div id="image2" onclick="changeImage(2)" style="width: 200px;">
+      <figure class="image is-16by9 is-covered">
+        <img src="https://images.unsplash.com/photo-1475359524104-d101d02a042b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2657&q=80" alt="">
+      </figure>
+    </div>
+    <div id="image3" onclick="changeImage(3)" class="slider-item" style="width: 200px;">
+      <figure class="image is-16by9 is-covered">
+        <img src="https://images.unsplash.com/photo-1509420316987-d27b02f81864?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80" alt="">
+      </figure>
+    </div>
+    <div id="image4" onclick="changeImage(4)" class="slider-item" style="width: 200px;">
+      <figure class="image is-16by9 is-covered">
+        <img src="https://images.unsplash.com/photo-1473773508845-188df298d2d1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3367&q=80" alt="">
+      </figure>
+    </div>
+    <div id="image5" onclick="changeImage(5)" class="slider-item" style="width: 200px;">
+      <figure class="image is-16by9 is-covered">
+        <img src="https://images.unsplash.com/photo-1482192596544-9eb780fc7f66?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80" alt="">
+      </figure>
+    </div>
+    <div id="image6" onclick="changeImage(6)" class="slider-item" style="width: 200px;">
+      <figure class="image is-16by9 is-covered">
+        <img src="https://images.unsplash.com/photo-1588793043912-6d6f30f5b885?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80" alt="">
+      </figure>
+    </div>
+    <div id="image7" onclick="changeImage(7)" class="slider-item" style="width: 200px;">
+      <figure class="image is-16by9 is-covered">
+        <img src="https://images.unsplash.com/photo-1486989570423-fd8ab0167ba7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80" alt="">
+      </figure>
+    </div>
+    <div id="image8" onclick="changeImage(8)" class="slider-item" style="width: 200px;">
+      <figure class="image is-16by9 is-covered">
+        <img src="https://images.unsplash.com/photo-1482003297000-b7663a1673f1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80" alt="">
+      </figure>
+    </div>
+    <div id="image9" onclick="changeImage(9)" class="slider-item" style="width: 200px;">
+      <figure class="image is-16by9 is-covered">
+        <img src="https://images.unsplash.com/photo-1520246819288-8bcefb7ac966?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80" alt="">
+      </figure>
+    </div>
+    <div id="image10" onclick="changeImage(10)" class="slider-item" style="width: 200px;">
+      <figure class="image is-16by9 is-covered">
+        <img src="https://images.unsplash.com/photo-1451336819701-5a83f6534292?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3367&q=80" alt="">
+      </figure>
+    </div>
+    <div id="image11" onclick="changeImage(11)" class="slider-item" style="width: 200px;">
+      <figure class="image is-16by9 is-covered">
+        <img src="https://images.unsplash.com/photo-1462953491269-9aff00919695?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80" alt="">
+      </figure>
+    </div>
+  </div>
+  <div onclick="previous()" class="slider-navigation-previous">
+    <svg viewBox="0 0 50 80" xml:space="preserve">
+      <polyline fill="currentColor" stroke-width=".5em" stroke-linecap="round" stroke-linejoin="round" points="45.63,75.8 0.375,38.087 45.63,0.375 "></polyline>
+    </svg>
+  </div>
+<div onclick="next()" class="slider-navigation-next">
+  <svg viewBox="0 0 50 80" xml:space="preserve">
+      <polyline fill="currentColor" stroke-width=".5em" stroke-linecap="round" stroke-linejoin="round" points="0.375,0.375 45.63,38.087 0.375,75.8 "></polyline>
+    </svg>
+  </div>
+</div>
+</section>
+  <script>
+    function next () {
+      document.getElementById('slider').scrollLeft += 361;
+    }
+    function previous () {
+      document.getElementById('slider').scrollLeft -= 361;
+    }
+    function changeImage (id) {
+      var selected = document.querySelector('#image' + id).getElementsByTagName('img')[0].src;
+      console.log(selected);
+      var currentImage = document.querySelector('#currentImage').src;
+      document.querySelector('#image' + id).getElementsByTagName('img')[0].src = currentImage;
+      document.querySelector('#currentImage').src = selected;
+    }
+  </script>
+</body>
+</html>
