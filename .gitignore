@@ -1,5 +1,5 @@
-.node_modules
-.main.scss
-.index.scss
-.bulma.html
-.bc-test.scss
+node_modules
+main.scss
+index.scss
+bulma.html
+bc-test.scss
